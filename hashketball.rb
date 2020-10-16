@@ -152,8 +152,9 @@ def team_colors(input_name)
   
 hashketball.each do |key, value|
   if value.has_value?(input_name)
+    binding.pry
     return value[:colors]
-  binding.pry
+  #binding.pry
 end
 end
 end 
