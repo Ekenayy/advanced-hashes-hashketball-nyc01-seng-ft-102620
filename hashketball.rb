@@ -165,10 +165,9 @@ def team_names
 
 hashketball.each do |key, value|
   if value.has_value?("Brooklyn Nets") || value.has_value?("Charlotte Hornets")
-    name_array << names
+    value[:team_name] << name_array
  # binding.pry
     end
-  end
   end 
   #binding.pry
 name_array
