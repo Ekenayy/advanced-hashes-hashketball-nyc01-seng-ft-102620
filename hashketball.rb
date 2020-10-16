@@ -179,7 +179,7 @@ def player_numbers(team)
       
 hashketball.each do |key, value|
     if value.has_value?(team)
-      while count 
+      while count < 5 do
      #player_numbers <<  
     # binding.pry
     
