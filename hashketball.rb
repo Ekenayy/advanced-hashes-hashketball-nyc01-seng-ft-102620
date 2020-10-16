@@ -179,7 +179,7 @@ def player_numbers(team)
       
 hashketball.each do |key, value|
     if value.has_value?(team)
-      binding.pry
+     player_numbers <<  binding.pry
     end 
   end
 end 
