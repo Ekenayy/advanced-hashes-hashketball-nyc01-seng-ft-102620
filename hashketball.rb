@@ -197,6 +197,7 @@ def shoe_size(player_name)
   hashketball.each do |key, value|
     value[:players].each do |k, v|
     binding.pry
-  end 
+    end 
+  end
 end 
 
