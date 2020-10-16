@@ -217,5 +217,8 @@ def player_stats(given_player)
   end
  end
 
+def big_shoe_rebounds
+    hashketball = game_hash 
+
 
 
