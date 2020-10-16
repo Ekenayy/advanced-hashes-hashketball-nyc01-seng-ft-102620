@@ -226,7 +226,7 @@ def big_shoe_rebounds
 hashketball.each do |key, value|
    value[:players].each do |stats, data|
      if stats[:shoe] > shoe_size
-       shoe_size << stats[:shoe]
+       shoe_size = stats[:shoe]
        winner = stats[:rebounds]
     #winner_hash = value[:players].max_by { |x| :shoe}
      #winner_hash[:rebounds]
