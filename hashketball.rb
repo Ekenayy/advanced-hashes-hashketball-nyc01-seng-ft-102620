@@ -178,7 +178,8 @@ def player_numbers(team)
       player_numbers = []
       
 hashketball.each do |key, value|
-  if value.has_value?(team)
-binding.pry 
-  end 
+    if value.has_value?(team)
+      binding.pry
+    end 
+  end
 end 
