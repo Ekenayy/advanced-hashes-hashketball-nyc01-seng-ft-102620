@@ -166,10 +166,10 @@ hashketball.each do |key, value|
   value.each do |team, names|
   if value.has_value?("Brooklyn Nets") || value.has_value?("Charlotte Hornets")
     name_array << names
-  binding.pry
+ # binding.pry
     end
   end
   end 
-  binding.pry
+  #binding.pry
 name_array
 end 
