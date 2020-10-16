@@ -204,3 +204,6 @@ def shoe_size(player_name)
   end
 end 
 
+def player_stats(given_player)
+  
+
