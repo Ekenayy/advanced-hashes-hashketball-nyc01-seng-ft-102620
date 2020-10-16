@@ -210,7 +210,7 @@ def player_stats(given_player)
   hashketball.each do |key, value|
    value[:players].each do |stats, data|
     if stats.has_value?(given_player)
-      
+      return stats
      binding.pry
     end 
   end
