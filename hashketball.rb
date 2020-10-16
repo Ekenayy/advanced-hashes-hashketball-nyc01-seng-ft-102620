@@ -234,6 +234,6 @@ hashketball.each do |key, value|
      binding.pry
     end 
    end 
-   winner 
+  return winner 
  end 
 
