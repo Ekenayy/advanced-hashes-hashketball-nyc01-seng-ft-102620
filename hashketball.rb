@@ -181,7 +181,7 @@ count = 0
 hashketball.each do |key, value|
     if value.has_value?(team)
       while count < 5 do
-     #player_numbers <<  
+     player_numbers << value[:players][]
     # binding.pry
     
     end 
