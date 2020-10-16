@@ -219,6 +219,8 @@ def player_stats(given_player)
 
 def big_shoe_rebounds
     hashketball = game_hash 
+  
+  shoe_size = 0
 
 
 
