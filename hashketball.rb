@@ -183,11 +183,11 @@ hashketball.each do |key, value|
       while i < 5 do
      player_numbers << value[:players][i][:number]
      i += 1
-    #binding.pry
+    binding.pry
       end
     end 
   end
   player_numbers
-  binding.pry
+  #binding.pry
   end
   
