@@ -211,7 +211,7 @@ def player_stats(given_player)
    value[:players].each do |stats, data|
     if stats.has_value?(given_player)
       return stats
-     binding.pry
+     #binding.pry
     end 
   end
  end
