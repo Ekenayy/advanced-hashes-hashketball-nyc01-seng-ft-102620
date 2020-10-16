@@ -221,7 +221,7 @@ def big_shoe_rebounds
     hashketball = game_hash 
   
   shoe_size = 0
-  winner = []
+  winner = 0
 
 hashketball.each do |key, value|
    value[:players].each do |stats, data|
