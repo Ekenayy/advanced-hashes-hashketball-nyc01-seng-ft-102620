@@ -193,3 +193,6 @@ hashketball.each do |key, value|
   
 def shoe_size(player_name)
   hashketball = game_hash 
+  
+  hashketball.each do |key, value|
+    binding.pry
