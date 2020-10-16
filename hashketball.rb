@@ -192,4 +192,4 @@ hashketball.each do |key, value|
   end
   
 def shoe_size(player_name)
-   hashketball = game_hash 
+  hashketball = game_hash 
