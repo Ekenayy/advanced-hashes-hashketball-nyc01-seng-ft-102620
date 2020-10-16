@@ -183,6 +183,8 @@ hashketball.each do |key, value|
     if value.has_value?(team)
      #player_numbers <<  
     # binding.pry
+    
     end 
+  end
   end
 end 
