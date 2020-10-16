@@ -1,4 +1,5 @@
-# Write your code below game_hash
+require 'pry'
+
 def game_hash
   {
     home: {
@@ -126,4 +127,49 @@ def game_hash
   }
 end
 
-# Write code here
+def num_points_scored(player_name)
+  hashketball = game_hash 
+    hashketball[:home].delete(:team_name)
+    hashketball[:home].delete(:colors)
+    hashketball[:away].delete(:team_name)
+    hashketball[:away].delete(:colors)
+
+  
+  hashketball.each do |key,value|
+    value.each do |team, details|
+     details.each do |stats|
+     if stats.has_value?(player_name)
+       return stats[:points]
+     #binding.pry
+    end
+    end
+    end
+  end
+end 
+
+def team_colors(input_name)
+  hashketball = game_hash 
+  
+hashketball.each do |key, value|
+  if value.has_value?(input_name)
+    return value[:colors]
+  #binding.pry
+end
+end
+end 
+
+def team_names
+    hashketball = game_hash 
+    name_array = []
+
+hashketball.each do |key, value|
+  value.each do |team, names|
+  if value.has_value?("Brooklyn Nets") || value.has_value?("Charlotte Hornets")
+    name_array << names
+  binding.pry
+    end
+  end
+  end 
+  binding.pry
+name_array
+end 
