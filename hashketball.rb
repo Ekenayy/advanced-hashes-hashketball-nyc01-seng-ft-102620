@@ -139,7 +139,8 @@ def num_points_scored(player_name)
     value[:players].each do |player, details|
       if player.has_value?(player_name)
         return player[:points]
-      binding.pry
+      end
+      #binding.pry
      #details.each do |stats|
      #if stats.has_value?(player_name)
        #return stats[:points]
