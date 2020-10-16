@@ -188,5 +188,5 @@ hashketball.each do |key, value|
     end 
   end
   player_numbers
-  binding.pry
+  #binding.pry
   end
