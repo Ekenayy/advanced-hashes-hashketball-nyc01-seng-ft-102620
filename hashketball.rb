@@ -142,8 +142,8 @@ def num_points_scored(player_name)
      #if stats.has_value?(player_name)
        #return stats[:points]
      #binding.pry
-    end
-    end
+    #end
+    #end
     end
   end
 end 
