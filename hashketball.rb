@@ -227,7 +227,7 @@ hashketball.each do |key, value|
    value[:players].each do |stats, data|
     winner_hash = value[:players].max_by { |x| :shoe}
      return winner_hash[:rebounds]
-     binding.pry
+     #binding.pry
     end 
    end 
  end 
