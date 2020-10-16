@@ -137,9 +137,10 @@ def num_points_scored(player_name)
   
   hashketball.each do |key,value|
     value[:player].each do |team, details|
-     details.each do |stats|
-     if stats.has_value?(player_name)
-       return stats[:points]
+      binding.pry
+     #details.each do |stats|
+     #if stats.has_value?(player_name)
+       #return stats[:points]
      #binding.pry
     end
     end
