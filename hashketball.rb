@@ -176,7 +176,8 @@ end
 def player_numbers(team)
       hashketball = game_hash 
       player_numbers = []
-      
+count = 0
+
 hashketball.each do |key, value|
     if value.has_value?(team)
       while count < 5 do
