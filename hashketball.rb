@@ -173,3 +173,9 @@ hashketball.each do |key, value|
 name_array
 end 
 
+def player_numbers(team)
+      hashketball = game_hash 
+      player_numbers = []
+      
+hashketball.each do |key, value|
+  if value.has_value?(team)
