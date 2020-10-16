@@ -220,8 +220,13 @@ def player_stats(given_player)
 def big_shoe_rebounds
     hashketball = game_hash 
   
-  shoe_size = 0
-  winner = {rebounds: 0}
+  #shoe_size = 0
+  #winner = {rebounds: 0}
 
-
+hashketball.each do |key, value|
+   value[:players].each do |stats, data|
+     binding.pry
+    end 
+   end 
+ end 
 
